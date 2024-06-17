@@ -10,7 +10,7 @@ import pickle
 import streamlit as st
 
 #loading. the saved model
-loaded_model = pickle.load(open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-19-Breast Cancer Classification using Machine Learning/breast_cancer_trained_model.sav",'rb'))
+loaded_model = pickle.load(open("breast_cancer_trained_model.sav",'rb'))
 
 
 def breast_cancer_prediction(input_data):
