@@ -58,7 +58,7 @@ Display of prediction results and model performance metrics.
 # Results
 The model achieves the following performance metrics on the test set:
 
-Accuracy: XX%
+Accuracy: 92.98%
 These metrics indicate the model's effectiveness in classifying tumors as malignant or benign.
 
 # Conclusion
@@ -68,5 +68,5 @@ The Breast Cancer Classification Web App is a powerful tool that leverages machi
 Contributions are welcome! If you have any suggestions or improvements, please create a pull request or open an issue.
 
 # Deployment
-The application is deployed using Streamlit. You can access it here = 
+The application is deployed using Streamlit. You can access it here = https://ml-project-19-breast-cancer-classification-webapp-luox8ykrhlio.streamlit.app/
 
