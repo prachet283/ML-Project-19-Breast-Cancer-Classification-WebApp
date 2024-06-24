@@ -70,3 +70,4 @@ Contributions are welcome! If you have any suggestions or improvements, please c
 # Deployment
 The application is deployed using Streamlit. You can access it here = https://ml-project-19-breast-cancer-classification-webapp-luox8ykrhlio.streamlit.app/
 
+You can access updated it here = https://ml-project-19-breast-cancer-classification-webapp-9kzm5bbgrew6.streamlit.app/
