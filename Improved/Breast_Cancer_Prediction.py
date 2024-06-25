@@ -12,21 +12,21 @@ import streamlit as st
 import pandas as pd
 
 #loading. the saved model
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-19-Breast Cancer Classification using Machine Learning/Updated/columns.pkl", 'rb') as f:
+with open("columns.pkl", 'rb') as f:
     all_features = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-19-Breast Cancer Classification using Machine Learning/Updated/scaler.pkl", 'rb') as f:
+with open("scaler.pkl", 'rb') as f:
     scalers = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-19-Breast Cancer Classification using Machine Learning/Updated/best_features_lr.json", 'r') as file:
+with open("best_features_lr.json", 'r') as file:
     best_features_lr = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-19-Breast Cancer Classification using Machine Learning/Updated/best_features_xgb.json", 'r') as file:
+with open("best_features_xgb.json", 'r') as file:
     best_features_xgb = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-19-Breast Cancer Classification using Machine Learning/Updated/best_features_knn.json", 'r') as file:
+with open("best_features_knn.json", 'r') as file:
     best_features_knn = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-19-Breast Cancer Classification using Machine Learning/Updated/parkinsons_disease_trained_lr_model.sav", 'rb') as f:
+with open("parkinsons_disease_trained_lr_model.sav", 'rb') as f:
     loaded_model_lr = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-19-Breast Cancer Classification using Machine Learning/Updated/parkinsons_disease_trained_xgb_model.sav", 'rb') as f:
+with open("parkinsons_disease_trained_xgb_model.sav", 'rb') as f:
     loaded_model_xgb = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-19-Breast Cancer Classification using Machine Learning/Updated/parkinsons_disease_trained_knn_model.sav", 'rb') as f:
+with open("parkinsons_disease_trained_knn_model.sav", 'rb') as f:
     loaded_model_knn = pickle.load(f)
 
 
